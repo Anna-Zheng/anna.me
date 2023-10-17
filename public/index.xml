@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anna.me</title>
+    <link>/</link>
+    <description>Recent content on Anna.me</description>
+    <image>
+      <title>Anna.me</title>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2023 14:08:56 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frontend Interview</title>
+      <link>/post/interview/</link>
+      <pubDate>Mon, 20 Feb 2023 14:08:56 +0800</pubDate>
+      
+      <guid>/post/interview/</guid>
+      <description>项目工程化 cmd、umd、amd、commonjs、es6 模块化标准对比 CommonJS：
+CommonJS 是在 2009 年诞生的一个项目，目标是制定一个在 JavaScript 环境中包括模块、文件系统、二进制处理、buffer 等通用 API 的规范。Node.js 的模块系统就是参照了 CommonJS 规范实现的。
+CommonJS 规范主要用于服务器编程，包含一个模块创建、模块引用和模块标识三个部分。模块通过 require 方法来同步加载所需要的其他模块，通过 exports 或 module.exports 来导出模块中的方法或属性。
+由于服务器端模块文件都存储在本地硬盘，读取速度非常快，所以 CommonJS 规范采用了同步加载的方式。但是，这种方式在浏览器环境中的体验会较差，因为模块文件可能要经过网络传输才能获取。
+AMD (Asynchronous Module Definition)：
+AMD 规范于 2011 年提出，是为解决在浏览器环境中异步加载模块而设计的规范。它使用 requireJS 作为主要的模块化工具，使用 define 函数定义模块，使用 require 函数加载模块。
+AMD 规范允许模块和其依赖可以并行加载，只有当依赖项全部加载完成后，回调函数才会被调用。这种方式在浏览器环境中可以避免网络等原因导致的加载延迟，从而导致阻塞问题。
+CMD (Common Module Definition)：
+CMD 规范在 AMD 规范基础上改进而来，由国内的阿里巴巴团队于 2011 年左右提出并实现 seajs 库。CMD 推崇依赖就近，只在需要时进行 require，支持动态依赖。
+CMD 规范在设计上更加贴近实际的编程需求和习惯，对模块的依赖关系可以灵活处理，使得代码的编写和维护工作变得更加容易。
+UMD (Universal Module Definition)：
+UMD 规范于 2013 年左右提出，设计目标是将 CommonJS 和 AMD 规范融合在一起，使得你的模块在所有的环境下都可以运行。</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
