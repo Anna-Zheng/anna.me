@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Anna.me</title>
-    <link>/</link>
-    <description>Recent content on Anna.me</description>
+    <title>TypeScript on Anna.me</title>
+    <link>/tags/typescript/</link>
+    <description>Recent content in TypeScript on Anna.me</description>
     <image>
       <title>Anna.me</title>
       <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2023 14:08:56 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 14:08:56 +0800</lastBuildDate><atom:link href="/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TypeScript练习题：30天LeetCode挑战（day1 to day7）</title>
       <link>/post/ts-test-30-days/day1to7/</link>
@@ -28,8 +28,6 @@ https://leetcode.com/problems/counter/editorial/
 DAY3: Counter II 题目说明： 实现函数 createCounter，可以传一个初始值参数，返回包含三个函数的对象，三个函数分别是 increment()、decrement()、reset()。
 解题思路： increment()、decrement() 都是返回计算过后的值，变量要放在运算符的后面。reset() 重置初始值，需要额外用变量储存当前计算值，保留初始值 init。</description>
     </item>
-    
-    
     
   </channel>
 </rss>

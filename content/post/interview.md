@@ -1,7 +1,7 @@
 ---
 title: "Frontend Interview"
 date: 2023-02-20T14:08:56+08:00
-draft: false # 是否为草稿
+draft: true # 是否为草稿
 
 tags: ["interview"]
 categories: ["technical"]

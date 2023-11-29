@@ -13,23 +13,20 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Feb 2023 14:08:56 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Frontend Interview</title>
-      <link>/post/interview/</link>
+      <title>TypeScript练习题：30天LeetCode挑战（day1 to day7）</title>
+      <link>/post/ts-test-30-days/day1to7/</link>
       <pubDate>Mon, 20 Feb 2023 14:08:56 +0800</pubDate>
       
-      <guid>/post/interview/</guid>
-      <description>项目工程化 cmd、umd、amd、commonjs、es6 模块化标准对比 CommonJS：
-CommonJS 是在 2009 年诞生的一个项目，目标是制定一个在 JavaScript 环境中包括模块、文件系统、二进制处理、buffer 等通用 API 的规范。Node.js 的模块系统就是参照了 CommonJS 规范实现的。
-CommonJS 规范主要用于服务器编程，包含一个模块创建、模块引用和模块标识三个部分。模块通过 require 方法来同步加载所需要的其他模块，通过 exports 或 module.exports 来导出模块中的方法或属性。
-由于服务器端模块文件都存储在本地硬盘，读取速度非常快，所以 CommonJS 规范采用了同步加载的方式。但是，这种方式在浏览器环境中的体验会较差，因为模块文件可能要经过网络传输才能获取。
-AMD (Asynchronous Module Definition)：
-AMD 规范于 2011 年提出，是为解决在浏览器环境中异步加载模块而设计的规范。它使用 requireJS 作为主要的模块化工具，使用 define 函数定义模块，使用 require 函数加载模块。
-AMD 规范允许模块和其依赖可以并行加载，只有当依赖项全部加载完成后，回调函数才会被调用。这种方式在浏览器环境中可以避免网络等原因导致的加载延迟，从而导致阻塞问题。
-CMD (Common Module Definition)：
-CMD 规范在 AMD 规范基础上改进而来，由国内的阿里巴巴团队于 2011 年左右提出并实现 seajs 库。CMD 推崇依赖就近，只在需要时进行 require，支持动态依赖。
-CMD 规范在设计上更加贴近实际的编程需求和习惯，对模块的依赖关系可以灵活处理，使得代码的编写和维护工作变得更加容易。
-UMD (Universal Module Definition)：
-UMD 规范于 2013 年左右提出，设计目标是将 CommonJS 和 AMD 规范融合在一起，使得你的模块在所有的环境下都可以运行。</description>
+      <guid>/post/ts-test-30-days/day1to7/</guid>
+      <description>LeetCode 挑战题目汇总地址： 30 Days of JavaScript Challenge
+DAY1: Create Hello World Function 解题代码： function createHelloWorld() { return function(...args): string { return &amp;#34;Hello World&amp;#34; }; }; 官方解題說明
+https://leetcode.com/problems/create-hello-world-function/editorial/
+DAY2: Counter 题目说明： 第一次调用 createCounter 传值 n, 后面每次调用返回都比前一次返回的值加1。
+解题思路： 可以用变量和运算符的相对位置来记递增运算符返回的值是计算前还是计算后的值：n++ 的 n 放在 ++ 的前面，所以是运算前的值；++n 是放在 ++ 的后面，所以是运算后的值。
+function createCounter(n: number): () =&amp;gt; number { return function() { return n++ } } 官方解題說明
+https://leetcode.com/problems/counter/editorial/
+DAY3: Counter II 题目说明： 实现函数 createCounter，可以传一个初始值参数，返回包含三个函数的对象，三个函数分别是 increment()、decrement()、reset()。
+解题思路： increment()、decrement() 都是返回计算过后的值，变量要放在运算符的后面。reset() 重置初始值，需要额外用变量储存当前计算值，保留初始值 init。</description>
     </item>
     
   </channel>

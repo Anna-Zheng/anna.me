@@ -8,10 +8,10 @@
     <loc>/categories/</loc>
     <lastmod>2023-02-20T14:08:56+08:00</lastmod>
   </url><url>
-    <loc>/post/interview/</loc>
+    <loc>/tags/leetcode/</loc>
     <lastmod>2023-02-20T14:08:56+08:00</lastmod>
   </url><url>
-    <loc>/tags/interview/</loc>
+    <loc>/categories/leetcode/</loc>
     <lastmod>2023-02-20T14:08:56+08:00</lastmod>
   </url><url>
     <loc>/post/</loc>
@@ -20,7 +20,10 @@
     <loc>/tags/</loc>
     <lastmod>2023-02-20T14:08:56+08:00</lastmod>
   </url><url>
-    <loc>/categories/technical/</loc>
+    <loc>/tags/typescript/</loc>
+    <lastmod>2023-02-20T14:08:56+08:00</lastmod>
+  </url><url>
+    <loc>/post/ts-test-30-days/day1to7/</loc>
     <lastmod>2023-02-20T14:08:56+08:00</lastmod>
   </url><url>
     <loc>/archives/</loc>
